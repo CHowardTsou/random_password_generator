@@ -1,0 +1,24 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <h1>Gernerate a <br><span id="rp">random password</span></h1>
+                <p>Never use an insecure password again.</p>
+                <label for="pw-length">Length </label>
+                <input type="number" id="pw-length" placeholder="default : 15 characters"/><br>
+                <input type="radio" id="hasSymbol" name="has_symbol" value="hasSymbol" />
+                <label for="hasSymbol">no symbol</label><br>
+                <button id="btn">Gerenate passwords</button>
+            </div>
+            <div class="pw-part">
+                <h4 id="pwOne"></h4>
+                <h4 id="pwTwo"></h4>
+            </div>
+            <p>Click the password and copy to clipboard </p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

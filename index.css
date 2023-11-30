@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    width: 450px;
+    height: 450px;
+    margin: 5px auto;
+}
+
+.container {
+    width: 400px;
+    height: 380px;
+    background: #1F2937;
+    padding: 70px 50px;
+    display: block;
+}
+
+.main {
+    border-bottom: 1px #2F3E53 solid;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+p , label {
+    color: #D5D4D8;
+    margin-top: 8px;
+}
+
+#rp {
+    color: #4ADF86;
+}
+
+button {
+    background: #10B981;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.pw-part {
+    display: flex;
+    justify-content: flex-start;
+}
+#pwOne, #pwTwo {
+    color: #55F991;
+    background: #273549;
+    padding: 10px 10px;
+    margin-right: 10px;  
+}
+
+input {
+    margin-top: 10px;
+}
